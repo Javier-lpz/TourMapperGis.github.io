@@ -268,12 +268,18 @@
           "type": "WIDGET",
           "widgetId": "widget_30",
           "bbox": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_33",
+          "bbox": {}
         }
       },
       "type": "FIXED",
       "label": "Controller layout",
       "order": [
         "1",
+        "3",
         "0",
         "2"
       ]
@@ -285,11 +291,11 @@
           "widgetId": "widget_3",
           "bbox": {
             "left": "95.3%",
-            "right": "0.0%",
+            "right": "-0.0%",
             "top": "9.3%",
-            "bottom": "63.3%",
+            "bottom": "50.0%",
             "width": "4.7%",
-            "height": "27.4%"
+            "height": "40.7%"
           },
           "setting": {
             "autoProps": {
@@ -1396,7 +1402,6 @@
       "label": "Texto 4",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px, rgba(0, 0, 0, 0.3) -2px 4px 2px; font-size: 15px; background-color: rgb(240, 240, 240); color: rgb(18, 96, 87);\">VALLADOLID</strong></p>",
-        "placeholder": "Haga doble clic para editar texto",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1410,7 +1415,6 @@
       "label": "Texto 5",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"color: rgb(18, 96, 87); background-color: rgb(240, 240, 240); font-size: 15px; text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px, rgba(0, 0, 0, 0.3) -2px 4px 2px;\">ÁREA DE TURISTAS</span></p>",
-        "placeholder": "Haga doble clic para editar texto",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1788,7 +1792,6 @@
       "label": "Texto 6",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(5, 5, 5); background-color: rgb(240, 240, 240); font-size: 15px; text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px, rgba(0, 0, 0, 0.3) -2px 4px 2px;\">TOURMAPPER GIS</strong></p>",
-        "placeholder": "Haga doble clic para editar texto",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1826,6 +1829,18 @@
         "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Hopitales_Valladolid/FeatureServer"
       },
       "id": "widget_32",
+      "useMapWidgetIds": [
+        "widget_5"
+      ]
+    },
+    "widget_33": {
+      "uri": "widgets/SOS/",
+      "version": "1.13.0",
+      "label": "SOS 2",
+      "config": {
+        "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Hopitales_Valladolid/FeatureServer"
+      },
+      "id": "widget_33",
       "useMapWidgetIds": [
         "widget_5"
       ]
@@ -2583,7 +2598,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://esmastergis.maps.arcgis.com"
+    "portalUrl": "https://esmastergis.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Tourmapper GIS",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1713307144764.png"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -2636,7 +2657,7 @@
       "index": 0
     }
   },
-  "timestamp": 1713312213780,
+  "timestamp": 1713342971790,
   "header": {
     "layout": {
       "LARGE": "layout_7",
