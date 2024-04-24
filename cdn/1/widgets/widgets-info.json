@@ -8018,6 +8018,28 @@
     "group": 7
   },
   {
+    "name": "Ruta",
+    "manifest": {
+      "name": "Ruta",
+      "label": "Ruta",
+      "type": "widget",
+      "version": "1.13.0",
+      "exbVersion": "1.13.0",
+      "author": "JLRz",
+      "description": "Widget añadir ruta precargada ",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "dependency": [
+        "jimu-arcgis"
+      ]
+    },
+    "uri": "widgets/Ruta/",
+    "icon": "widgets/Ruta/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "segundowidget",
     "manifest": {
       "name": "segundowidget",

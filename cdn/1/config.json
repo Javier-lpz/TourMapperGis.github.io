@@ -98,12 +98,12 @@
           "type": "WIDGET",
           "widgetId": "widget_10",
           "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
@@ -268,18 +268,12 @@
           "type": "WIDGET",
           "widgetId": "widget_30",
           "bbox": {}
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_33",
-          "bbox": {}
         }
       },
       "type": "FIXED",
       "label": "Controller layout",
       "order": [
         "1",
-        "3",
         "0",
         "2"
       ]
@@ -291,11 +285,11 @@
           "widgetId": "widget_3",
           "bbox": {
             "left": "95.3%",
-            "right": "-0.0%",
+            "right": "0.0%",
             "top": "9.3%",
-            "bottom": "50.0%",
+            "bottom": "63.3%",
             "width": "4.7%",
-            "height": "40.7%"
+            "height": "27.4%"
           },
           "setting": {
             "autoProps": {
@@ -341,8 +335,8 @@
           "type": "WIDGET",
           "widgetId": "widget_14",
           "bbox": {
-            "left": "41.0%",
-            "right": "39.8%",
+            "left": "40.4%",
+            "right": "40.4%",
             "top": "0.0%",
             "bottom": "6.7%",
             "width": "19.2%",
@@ -352,8 +346,8 @@
             "vCenter": false,
             "hCenter": false,
             "autoProps": {
-              "right": false,
-              "left": true,
+              "right": true,
+              "left": false,
               "top": false,
               "bottom": true
             }
@@ -363,11 +357,11 @@
           "type": "WIDGET",
           "widgetId": "widget_15",
           "bbox": {
-            "left": "68.2%",
-            "right": "0.0%",
+            "left": "62.7%",
+            "right": "4.0%",
             "top": "0.0%",
             "bottom": "6.7%",
-            "width": "31.8%",
+            "width": "33.3%",
             "height": "93.3%"
           },
           "setting": {
@@ -385,8 +379,8 @@
           "type": "WIDGET",
           "widgetId": "widget_29",
           "bbox": {
-            "left": "10.0%",
-            "right": "65.9%",
+            "left": "11.9%",
+            "right": "64.0%",
             "top": "0.0%",
             "bottom": "0.0%",
             "width": "24.1%",
@@ -402,6 +396,37 @@
               "bottom": false
             }
           }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_33",
+          "bbox": {
+            "left": "91.1%",
+            "right": "0.5%",
+            "top": "21.5%",
+            "bottom": "21.6%",
+            "width": "8.4%",
+            "height": "56.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "FLOAT_IN",
+                "option": {
+                  "direction": null
+                }
+              }
+            },
+            "lockParent": false
+          }
         }
       },
       "type": "FIXED",
@@ -412,7 +437,8 @@
         "1",
         "2",
         "3",
-        "4"
+        "4",
+        "5"
       ]
     },
     "layout_8": {
@@ -604,10 +630,10 @@
           "type": "WIDGET",
           "widgetId": "widget_14",
           "bbox": {
-            "left": "28.0%",
-            "right": "35.0%",
-            "top": "22.8%",
-            "bottom": "19.9%",
+            "left": "24.0%",
+            "right": "39.0%",
+            "top": "10.4%",
+            "bottom": "32.3%",
             "width": "37.0%",
             "height": "57.3%"
           },
@@ -617,8 +643,8 @@
             "autoProps": {
               "right": true,
               "left": false,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             }
           }
         },
@@ -626,11 +652,11 @@
           "type": "WIDGET",
           "widgetId": "widget_15",
           "bbox": {
-            "left": "64.9%",
-            "right": "0.0%",
-            "top": "11.4%",
-            "bottom": "18.0%",
-            "width": "35.1%",
+            "left": "58.1%",
+            "right": "3.2%",
+            "top": "10.0%",
+            "bottom": "19.4%",
+            "width": "38.7%",
             "height": "70.6%"
           },
           "setting": {
@@ -643,6 +669,28 @@
               "bottom": true
             }
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_34",
+          "bbox": {
+            "left": "67.2%",
+            "right": "12.3%",
+            "top": "50.8%",
+            "bottom": "6.2%",
+            "width": "20.5%",
+            "height": "43.0%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
         }
       },
       "type": "FIXED",
@@ -652,7 +700,8 @@
       "order": [
         "1",
         "2",
-        "3"
+        "3",
+        "4"
       ]
     },
     "layout_14": {
@@ -984,11 +1033,11 @@
           "widgetId": "widget_3",
           "bbox": {
             "width": "13.3%",
-            "height": "41.9%",
+            "height": "45.1%",
             "right": "8px",
             "top": "45px",
-            "left": "84.5%",
-            "bottom": "50.7%"
+            "left": "84.8%",
+            "bottom": "47.8%"
           },
           "setting": {
             "autoProps": {
@@ -1027,7 +1076,7 @@
         },
         "3": {
           "type": "WIDGET",
-          "widgetId": "widget_32",
+          "widgetId": "widget_35",
           "bbox": {}
         }
       },
@@ -1035,9 +1084,9 @@
       "label": "Controller layout",
       "order": [
         "1",
-        "3",
         "0",
-        "2"
+        "2",
+        "3"
       ]
     },
     "layout_24": {
@@ -1080,8 +1129,8 @@
     "lockLayout": false,
     "viewPortSize": {
       "SMALL": {
-        "width": 360,
-        "height": 720
+        "width": 414,
+        "height": 736
       }
     }
   },
@@ -1165,12 +1214,27 @@
       "version": "1.13.0",
       "label": "Capas del mapa",
       "config": {
-        "useMapWidget": true
+        "useMapWidget": true,
+        "information": true,
+        "goto": true,
+        "useTickBoxes": true,
+        "enableLegend": false,
+        "searchLayers": false,
+        "label": false,
+        "setVisibility": true
       },
       "id": "widget_4",
       "useMapWidgetIds": [
         "widget_5"
-      ]
+      ],
+      "dataActions": {
+        "setFilter": {
+          "enabled": true
+        },
+        "dataStatistics": {
+          "enabled": true
+        }
+      }
     },
     "widget_5": {
       "uri": "widgets/arcgis/arcgis-map/",
@@ -1249,7 +1313,11 @@
               "singleLineFieldName": "SingleLine",
               "isSupportSuggest": true
             }
-          ]
+          ],
+          "suggestionConfig": {
+            "maxSuggestions": 10,
+            "isUseCurrentLoation": true
+          }
         }
       },
       "id": "widget_6",
@@ -1279,7 +1347,7 @@
         "embedType": "url",
         "expression": "<p>https://storymaps.arcgis.com/stories/80ffbdd82e0349859e2ceb33d0231c04</p>",
         "enableLabel": false,
-        "autoRefresh": true
+        "autoRefresh": false
       },
       "id": "widget_10",
       "useDataSources": []
@@ -1430,7 +1498,8 @@
         "embedType": "url",
         "expression": "<p>https://www.arcgis.com/apps/dashboards/8389f5e857f14a73877cafd0cbf83f36</p>",
         "enableLabel": false,
-        "autoRefresh": true
+        "autoRefresh": true,
+        "autoInterval": 60
       },
       "id": "widget_16",
       "useDataSources": []
@@ -1820,27 +1889,184 @@
       "version": "1.13.0",
       "label": "Leyenda 2",
       "config": {},
-      "id": "widget_31"
-    },
-    "widget_32": {
-      "uri": "widgets/SOS/",
-      "version": "1.13.0",
-      "config": {
-        "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Hopitales_Valladolid/FeatureServer"
-      },
-      "id": "widget_32",
+      "id": "widget_31",
       "useMapWidgetIds": [
         "widget_5"
       ]
     },
     "widget_33": {
+      "uri": "widgets/common/button/",
+      "version": "1.13.0",
+      "label": "Botón 6",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/rGySz1",
+            "expression": null
+          },
+          "text": "Valóranos",
+          "toolTip": "",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#73c3b4",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--light)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "14px",
+                "bold": false,
+                "underline": false
+              },
+              "borderRadius": {
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "%"
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#73c3b4",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#73c3b4",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_33",
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      },
+      "useDataSourcesEnabled": false
+    },
+    "widget_34": {
+      "uri": "widgets/common/button/",
+      "version": "1.13.0",
+      "label": "Botón 7",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/rGySz1",
+            "expression": null
+          },
+          "text": "Valóranos",
+          "toolTip": "",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#73c3b4",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--light)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "14px",
+                "bold": false,
+                "underline": false
+              },
+              "borderRadius": {
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "%"
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#73c3b4",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#73c3b4",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_34",
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      },
+      "useDataSourcesEnabled": false
+    },
+    "widget_35": {
       "uri": "widgets/SOS/",
       "version": "1.13.0",
-      "label": "SOS 2",
       "config": {
         "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Hopitales_Valladolid/FeatureServer"
       },
-      "id": "widget_33",
+      "id": "widget_35",
       "useMapWidgetIds": [
         "widget_5"
       ]
@@ -2601,10 +2827,10 @@
     "portalUrl": "https://esmastergis.maps.arcgis.com",
     "isWebTier": false,
     "clientId": "",
-    "title": "Tourmapper GIS",
+    "title": "Tourmapper GIS 2",
     "description": "",
     "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1713307144764.png"
+    "thumbnail": "thumbnail/thumbnail1713945785679.png"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -2657,7 +2883,7 @@
       "index": 0
     }
   },
-  "timestamp": 1713342971790,
+  "timestamp": 1713947146004,
   "header": {
     "layout": {
       "LARGE": "layout_7",
